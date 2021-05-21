@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./index.css">
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
+  <script src="https://kit.fontawesome.com/9e1ea52b25.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
     <header>
-      <nav>
+      <nav class="header-nav">
         <img src="./images/logo.svg" alt="logo">
-        <button>Try it free</button>
+        <button class="nav-button">Try it free</button>
       </nav>
       <div class="header-content-container">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
+        <h1 class="heading-title">Build The Community Your Fans Will Love</h1>
+        <p class="heading-paragraph">
           Huddle re-imagines the way we build communities. You have a voice, but so does
           your audience. Create connections with your users as you engage in genuine discussion.
         </p>
-        <button>Get Started For Free</button>
-        <img src="./images/screen-mockups.svg" alt="screen mockups" style="display:block">
+        <button class="heading-content-button">Get Started For Free</button>
+        <img src="./images/screen-mockups.svg" class="screen-mockups" alt="screen mockups" style="display:block">
       </div>
     </header>
 
@@ -43,27 +43,25 @@
     </section>
 
     <section>
+      <img src="./images/bg-section-top-desktop-1.svg" alt="" class="curved-section">
       <div class="section-content-first-container">
         <div class="section-left-content-container">
-          <h1>Grow Together</h1>
+          <h1 class="section-content-title">Grow Together</h1>
           <p>
             Generate meaningful discussions with your audience and build a strong, loyal community.
             Think of the insightful conversations you miss out on with a feedback form.
           </p>
         </div>
-        <div class="section-right-content-container">
-          <img src="./images/illustration-grow-together.svg" alt="illustration">
-        </div>
+        <img src="./images/illustration-grow-together.svg" class="section-right-content-container" alt="illustration">
       </div>
+      <img src="./images/bg-section-bottom-desktop-1.svg" alt="" class="curved-section">
     </section>
 
     <section>
       <div class="section-content-last-container">
-        <div class="section-left-content-container">
-          <img src="./images/illustration-flowing-conversation.svg" alt="illustration">
-        </div>
+        <img src="./images/illustration-flowing-conversation.svg" class="section-left-content-container" alt="illustration">
         <div class="section-right-content-container">
-          <h1>Flowing Conversations</h1>
+          <h1 class="section-content-title">Flowing Conversations</h1>
           <p>
             You wouldn't paginate a conversation in real life, so why do it online? Our threads have
             just-in-time loading for a more natural flow.
@@ -73,31 +71,33 @@
     </section>
     
     <section>
+      <img src="./images/bg-section-top-desktop-2.svg" alt="" class="curved-section">
       <div class="section-content-first-container">
         <div class="section-left-content-container">
-          <h1>Your Users</h1>
+          <h1 class="section-content-title">Your Users</h1>
           <p>
             It takes no time at all to integrate Huddle with your app's authentication solution. This means,
             once signed in to your app, your users can start chatting immediately.
           </p>
         </div>
-        <div class="section-right-content-container">
-          <img src="./images/illustration-your-users.svg" alt="illustration">
-        </div>
+        <img src="./images/illustration-your-users.svg" class="section-right-content-container" alt="illustration">
       </div>
+      <img src="./images/bg-section-bottom-desktop-2.svg" alt="" class="curved-section">
     </section>
+    
       
     <section>
       <div class="section-one-content-container">
         <h1>Ready To Build Your Community?</h1>
-        <button>Get Started For Free</button>
+        <button class="heading-content-button">Get Started For Free</button>
       </div>
     </section>
 
     <footer>
-      <div class="footer-content-containter">
+      <img src="./images/bg-footer-top-desktop.svg" alt="" class="curved-section">
+      <div class="footer-content-container">
         <div class="footer-left-content-container">
-          <img src="./images/logo.svg" alt="footer-icon">
+          <img src="./images/logo.svg" alt="footer-logo" class="footer-logo">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
             vestibulum a, ultrices quis sem.
@@ -115,12 +115,13 @@
             </p>
           </div>
           <div class="socials-container">
-            <img src="./images/" alt="">
-            <img src="./images/" alt="">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
             <img src="./images/" alt="">
           </div>
         </div>
-        <div class="foooter-right-content-container">
+        <div class="footer-right-content-container">
           <div class="newsletter-container">
             <h2>Newsletter</h2>
             <p>
@@ -129,9 +130,13 @@
             </p>
           </div>
           <div class="subscribe-container">
-            <input type="text">
-            <button>Subscribe</button>
+            <div>
+              <input type="text" name="mail" placeholder="Enter your email">
+              <label class="input-err" for="mail">Check your email please</label>
+            </div>
+            <button class="subscribe-button">Subscribe</button>
           </div>
+          <!-- <p class="input-err">Check your email please</p> -->
         </div>
       </div>
     </footer>
