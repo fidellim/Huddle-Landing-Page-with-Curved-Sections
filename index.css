@@ -52,6 +52,11 @@ header {
 	color: var(--pink);
 }
 
+.nav-button:active {
+	color: var(--lightPink);
+	border-color: var(--lightPink);
+}
+
 .header-content-container {
 	display: flex;
 	flex-direction: column;
@@ -80,6 +85,13 @@ header {
 	margin-bottom: 4rem;
 	font-weight: 700;
 	font-size: 0.75rem;
+	box-shadow: 0 4px 8px 0 rgba(58, 58, 58, 0.2),
+		0 6px 20px 0 rgba(83, 83, 83, 0.19);
+}
+
+.heading-content-button:active {
+	background-color: var(--lightPink);
+	border-color: var(--lightPink);
 }
 
 .screen-mockups {
@@ -225,6 +237,10 @@ section {
 
 .socials-container .fab {
 	margin-right: 1rem;
+}
+
+.socials-container .fab:active {
+	color: #10b7f4;
 }
 
 .newsletter-container > h2 {
