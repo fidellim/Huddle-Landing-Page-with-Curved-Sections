@@ -79,8 +79,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://www.w3schools.com/cssref/css_selectors.asp) - I was able to understand on how to use the "+" selector.
+- [Example resource 2](https://stackoverflow.com/questions/2943548/how-to-reset-remove-chromes-input-highlighting-focus-border) - This helped me remove the outline on input tag when it is in active state.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

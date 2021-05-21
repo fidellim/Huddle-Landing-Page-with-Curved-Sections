@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+:root {
+	/* pimary */
+	--pink: hsl(322, 100%, 66%);
+	--lightPink: hsl(321, 100%, 78%);
+	--lightRed: hsl(0, 100%, 63%);
+	/* neutral */
+	--verydarkCyan: hsl(192, 100%, 9%);
+	--veryPaleBlue: hsl(207, 100%, 98%);
+
+	/* font */
+	--poppins: "Poppins", sans-serif;
+	--openSans: "Open Sans", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.footer-content-container,
+.section-one-content-container,
+.section-content-last-container,
+.section-content-first-container,
+.section-stats-container,
+header {
+	padding: 0 7.5%;
+}
+
+/* wave background */
+.curved-section {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* HEADER */
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3rem 0;
+}
+
+.nav-button {
+	padding: 0.5rem 1.75rem;
+	border-radius: 1.5rem;
+	background-color: white;
+	border: 2px solid var(--pink);
+	color: var(--pink);
+}
+
+.header-content-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.heading-title {
+	margin-bottom: 1rem;
+	font-size: 3rem;
+}
+
+.heading-paragraph {
+	margin-bottom: 1.75rem;
+	max-width: 30rem;
+}
+
+.heading-content-button {
+	padding: 1rem 5.75rem;
+	border-radius: 1.75rem;
+	background-color: var(--pink);
+	border: 2px solid var(--pink);
+	color: white;
+	margin-bottom: 4rem;
+	font-weight: 700;
+	font-size: 0.75rem;
+}
+
+.screen-mockups {
+	height: auto;
+	width: 90%;
+}
+
+/* Section */
+section {
+	margin: 6rem 0;
+}
+
+.section-stats-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* .stats-left-content-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.stats-right-content-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+
+.stats-right-content-container h1,
+.stats-left-content-container h1 {
+	font-size: 5rem;
+	text-align: center;
+}
+
+.stats-right-content-container p,
+.stats-left-content-container p {
+	color: gray;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.section-content-first-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: var(--veryPaleBlue);
+}
+
+/* title for section content */
+.section-content-title {
+	font-size: 2rem;
+	margin-bottom: 1.25rem;
+}
+
+.section-left-content-container {
+	width: 40%;
+}
+
+.section-right-content-container {
+	width: 40%;
+}
+
+.section-content-last-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.section-one-content-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-one-content-container h1 {
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.section-one-content-container button {
+	margin-bottom: 1.5rem;
+}
+
+/* footer */
+.footer-content-container {
+	background-color: var(--verydarkCyan);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	font-size: 0.75rem;
+}
+
+.footer-logo {
+	filter: brightness(0) invert(1);
+	margin-bottom: 1rem;
+	width: 13rem;
+}
+
+/* ALTERNATIVE SOLUTION FOR MAKING SVG WHITE */
+/* #footer-logo-1,
+#footer-logo-2 {
+	fill: white;
+} */
+
+.footer-left-content-container > p {
+	margin-bottom: 1rem;
+	max-width: 17rem;
+}
+
+.footer-left-content-container > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.footer-left-content-container > div > img {
+	margin-right: 1rem;
+}
+
+.socials-container {
+	margin-top: 4rem;
+}
+
+.fab {
+	font-size: 1.75rem;
+}
+
+.socials-container .fab {
+	margin-right: 1rem;
+}
+
+.newsletter-container > h2 {
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-weight: 400;
+}
+
+.newsletter-container > p {
+	font-size: 0.75rem;
+	max-width: 18rem;
+	margin-bottom: 1.75rem;
+}
+
+.subscribe-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.subscribe-container div {
+	display: inline;
+}
+
+input[type="text"] {
+	height: 2.25rem;
+	width: 15rem;
+	border: 0;
+	border-radius: 7px;
+	margin-right: 2rem;
+	padding-left: 1rem;
+}
+
+input[type="text"]:active {
+	border: 1px solid var(--lightRed);
+	outline: none;
+}
+
+input[type="text"]:active + .input-err {
+	display: block;
+}
+
+.input-err {
+	margin-top: 0.25rem;
+	color: var(--lightRed);
+	display: none;
+}
+
+.subscribe-button {
+	height: 2.25rem;
+	width: 8rem;
+	border: 0;
+	border-radius: 7px;
+	color: white;
+	background-color: var(--pink);
+}
+
+.subscribe-button:active {
+	background-color: var(--lightPink);
+}
+
+/* utilities */
+button {
+	cursor: pointer;
+}
+
+p {
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--poppins);
+}
+
+p,
+label,
+button {
+	font-family: var(--openSans);
+}
