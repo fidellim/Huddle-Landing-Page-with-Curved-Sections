@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![Solution PC](./images/Solution%20PC.png)
-![Solution Mobile](./images/Solution%Mobile.png)
+![Solution Mobile](./images/Solution%20Mobile.png)
 
 ### Links
 
