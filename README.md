@@ -26,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Solution PC](./images/Solution%20PC.png)
+![Solution Mobile](./images/Solution%Mobile.png)
 
 ### Links
 
 - Solution URL: [Solution](https://github.com/fidellim/Huddle-Landing-Page-with-Curved-Sections)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://nifty-thompson-42c429.netlify.app/)
 
 ## My process
 
@@ -54,6 +55,10 @@ I have learned on how to change an image's color using CSS filter. I was able to
 input[type="text"]:active + .input-err {
 	display: block;
 }
+
+.cs-top-1 {
+	content: url(./images/bg-section-top-mobile-1.svg);
+}
 ```
 
 ### Continued development
@@ -67,6 +72,7 @@ I would like to continue understanding what CSS filter does. It does a lot more 
 - [CSS Filter](https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with-transparency-white) - I was able to change the color of the image (svg) using filter.
 - [CSS :active selector](https://www.w3schools.com/cssref/sel_active.asp)- I was have an understanding on what :active selector does.
 - [Change Color of SVG](https://css-tricks.com/change-color-of-svg-on-hover/) - This was able to help me change the color of svg file but eventually I thought of using `<img>` tag instead so I can easily scale its size.
+- [Replace image using CSS](https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css) - I was to replace the current images I have with another one with this solution.
 
 ## Author
 
